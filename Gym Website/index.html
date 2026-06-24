@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitZone Gym</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header id="home">
+
+<nav id="navbar">
+<div class="logo">FITZONE</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#plans">Plans</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+
+<div class="hero-text">
+<h1>Build Your Dream Body</h1>
+<p>
+Join the most modern fitness center and
+transform yourself with professional trainers.
+</p>
+
+<a href="#plans" class="btn">
+Join Now
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="stats">
+
+<div class="stat-box">
+<h2 class="counter" data-target="500">0</h2>
+<p>Members</p>
+</div>
+
+<div class="stat-box">
+<h2 class="counter" data-target="25">0</h2>
+<p>Trainers</p>
+</div>
+
+<div class="stat-box">
+<h2 class="counter" data-target="10">0</h2>
+<p>Years Experience</p>
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+FitZone Gym provides world-class equipment,
+certified trainers and personalized programs
+to help members achieve their fitness goals.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="service-container">
+
+<div class="card">
+<i class="fas fa-dumbbell"></i>
+<h3>Weight Training</h3>
+</div>
+
+<div class="card">
+<i class="fas fa-heartbeat"></i>
+<h3>Cardio Fitness</h3>
+</div>
+
+<div class="card">
+<i class="fas fa-user"></i>
+<h3>Personal Coaching</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="plans">
+
+<h2>Membership Plans</h2>
+
+<div class="plan-container">
+
+<div class="plan">
+<h3>Basic</h3>
+<h1>$20</h1>
+<p>Gym Access</p>
+<button>Choose</button>
+</div>
+
+<div class="plan featured">
+<h3>Premium</h3>
+<h1>$50</h1>
+<p>Trainer + Diet Plan</p>
+<button>Choose</button>
+</div>
+
+<div class="plan">
+<h3>Elite</h3>
+<h1>$90</h1>
+<p>All Features</p>
+<button>Choose</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="bmi">
+
+<h2>BMI Calculator</h2>
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+<input type="number" id="height" placeholder="Height (cm)">
+
+<button onclick="calculateBMI()">
+Calculate BMI
+</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<section class="testimonials">
+
+<h2>Testimonials</h2>
+
+<div class="testimonial-box">
+
+<div class="testimonial">
+<p>"Amazing trainers and atmosphere."</p>
+<h4>- Ahmed</h4>
+</div>
+
+<div class="testimonial">
+<p>"Lost 15kg in 5 months."</p>
+<h4>- Sarah</h4>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 FitZone Gym. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
